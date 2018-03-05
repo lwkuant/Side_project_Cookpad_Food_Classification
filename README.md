@@ -10,7 +10,9 @@ This project aims to build a deep learning model to accurately classify 55 diffe
 
 ## Methology 
 1. Transform the data with various sizes to (192, 256, 3)
-2. Use VGG19 pretrained model for feature extraction
+2. Use pretrained model for feature extraction:
+	(1) VGG19
+	(2) InceptionV3
 3. Implement Data augmentation
 4. Retrain part of the layers of the VGG19 pretrained model
 
@@ -27,3 +29,7 @@ This project aims to build a deep learning model to accurately classify 55 diffe
 ### VGG19 Pretrained Model + Retrain Block 5 of VGG19 + 1 Layer Dense Model (256, )
 <img src="https://github.com/lwkuant/Side_project_Cookpad_Food_Classification/blob/master/Accuracy_VGG19_Retraining_Block5_1_layer_256.png">
 <img src="https://github.com/lwkuant/Side_project_Cookpad_Food_Classification/blob/master/Loss_VGG19_Retraining_Block5_1_layer_256.png">
+
+### InceptionV3 Pretrained Model + 1 Layer Dense Model (256, ) 
+<img src="https://github.com/lwkuant/Side_project_Cookpad_Food_Classification/blob/master/Accuracy_InceptionV3_1_layer_256.png">
+<img src="https://github.com/lwkuant/Side_project_Cookpad_Food_Classification/blob/master/Loss_InceptionV3_1_layer_256.png">
