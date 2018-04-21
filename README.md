@@ -39,4 +39,6 @@ This project aims to build a deep learning model to accurately classify 55 diffe
 <img src="https://github.com/lwkuant/Side_project_Cookpad_Food_Classification/blob/master/Image/Accuracy_InceptionResNetV2_1_layer_256.png">
 <img src="https://github.com/lwkuant/Side_project_Cookpad_Food_Classification/blob/master/Image/Loss_InceptionResNetV2_1_layer_256.png">
 
-
+### InceptionResNetV2 Pretrained Model + 1 Layer Dense Model (256, ) + Data Augmentation to 50,000 pictures
+<img src="https://github.com/lwkuant/Side_project_Cookpad_Food_Classification/blob/master/Image/Accuracy_InceptionResNetV2_Data_Augmentation_50k_1_layer_256.png">
+<img src="https://github.com/lwkuant/Side_project_Cookpad_Food_Classification/blob/master/Image/Loss_InceptionResNetV2_Data_Augmentation_50k_1_layer_256.png">
